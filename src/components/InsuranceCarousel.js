@@ -35,16 +35,25 @@ const InsuranceImage = styled.div`
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  height: 100%;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   
   img {
-    max-width: 100%;
-    max-height: 70px;
+    max-width: 120px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
     object-fit: contain;
+    filter: grayscale(20%);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      filter: grayscale(0%);
+      transform: scale(1.05);
+    }
   }
 `;
 

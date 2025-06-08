@@ -16,19 +16,21 @@ const FooterContent = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  gap: 40px;
 
   @media (max-width: 768px) {
     flex-direction: column;
+    gap: 30px;
   }
 `;
 
 const FooterColumn = styled.div`
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   min-width: 200px;
   
   @media (max-width: 768px) {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 `;
 
@@ -177,7 +179,16 @@ const Footer = () => {
             <ContactIcon><FaEnvelope /></ContactIcon>
             <span>Ana.manganoti@hotmail.com</span>
           </ContactItem>
-          <p style={{ marginTop: '15px' }}>Horário de atendimento:<br />Segunda a Sexta, das 8h às 18h</p>
+          <div style={{ marginTop: '20px', paddingTop: '15px', borderTop: '1px solid #444' }}>
+            <p style={{ marginBottom: '10px', fontWeight: '600' }}>Endereço:</p>
+            <p style={{ marginBottom: '15px', lineHeight: '1.5' }}>
+              Avenida Brasil 6032 - Sala 101<br />
+              Maringá - PR
+            </p>
+          </div>
+          <p style={{ marginTop: '15px', fontSize: '14px', color: '#aaa' }}>
+            Horário de atendimento:<br />Segunda a Sexta, das 8h às 18h
+          </p>
         </FooterColumn>
       </FooterContent>
       

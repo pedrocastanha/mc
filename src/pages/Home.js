@@ -2,9 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaWhatsapp, FaPhone } from 'react-icons/fa';
 import Hero from '../components/Hero';
+import WelcomeAndLocation from '../components/WelcomeAndLocation';
 import InsuranceSection from '../components/InsuranceSection';
 import ContactForm from '../components/ContactForm';
 import InsuranceCarousel from '../components/InsuranceCarousel';
+import TestimonialsCarousel from '../components/TestimonialsCarousel';
 
 const HomeContainer = styled.div`
   padding-top: 80px; /* Para compensar o header fixo */
@@ -82,6 +84,8 @@ const Home = () => {
     <HomeContainer>
       <Hero />
       
+      <WelcomeAndLocation />
+      
       <ProductsSection id="produtos">
         <SectionTitle>Nossos Produtos</SectionTitle>
       
@@ -126,6 +130,8 @@ const Home = () => {
       </ProductsSection>
       
       <InsuranceCarousel />
+      
+      <TestimonialsCarousel />
       
       <ContactForm id="formulario" />
       
