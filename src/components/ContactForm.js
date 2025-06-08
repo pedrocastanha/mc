@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import { FaPaperPlane } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
-// import emailjs from '@emailjs/browser';
 
 const FormSection = styled.section`
   padding: 80px 0;

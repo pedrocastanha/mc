@@ -145,7 +145,7 @@ const Home = () => {
             <ContactButton href="tel:+5544997036832" primary>
               <FaPhone /> Ligar Agora
             </ContactButton>
-            <ContactButton href="https://wa.me/5544997036832?text=Olá!%20Vim%20pelo%20site%20da%20M&C%20Corretora%20e%20gostaria%20de%20fazer%20uma%20cotação." target="_blank">
+            <ContactButton href="https://wa.me/5544997036832?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20M%26C%20Corretora%20e%20gostaria%20de%20fazer%20uma%20cotação." target="_blank">
               <FaWhatsapp /> Conversar no WhatsApp
             </ContactButton>
           </ContactButtons>
