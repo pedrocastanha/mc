@@ -16,14 +16,14 @@ const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 2px 20px;
   max-width: 1200px;
   margin: 0 auto;
 `;
 
 const Logo = styled.div`
   img {
-    height: 120px;
+    height: 70px;
     width: auto;
   }
 `;
@@ -87,7 +87,7 @@ const Header = () => {
       <NavContainer>
         <Logo>
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <img src="/images/Logo-1.png" alt="M & C Seguros" />
+            <img src="/images/Logo-2a.png" alt="M & C Seguros" />
           </Link>
         </Logo>
         <NavLinks>
