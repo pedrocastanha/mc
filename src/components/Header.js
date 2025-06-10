@@ -16,12 +16,13 @@ const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 20px;
+  padding: 17px 20px;
   max-width: 1200px;
   margin: 0 auto;
 `;
 
 const Logo = styled.div`
+  margin-top: 10px;
   img {
     height: 30px;
     width: auto;
