@@ -104,7 +104,7 @@ const Home = () => {
           title="Garanta a segurança do seu lar."
           description="Transforme sua casa num verdadeiro porto seguro. Com nosso seguro residencial, você dorme tranquilo sabendo que está protegido contra incêndio, roubo, danos elétricos e aqueles imprevistos que chegam sem avisar. Receba assistência 24 horas para qualquer tipo de emergências e conte com um atendimento humano e ágil sempre que precisar.
            Porque cuidar do seu lar é, acima de tudo, cuidar do que é mais importante para você.."
-          image="/images/Img_residencia.png"
+          image="/images/Img_residencial.png"
           color="#6A3DE8"
           reverse={true}
         />
