@@ -135,7 +135,7 @@ const WelcomeAndLocation = () => {
             </MapContainer>
             <AddressInfo>
               <h3>Nossa Localização</h3>
-              <p>Avenida Brasil 6032 - Sala 101, Maringá - PR</p>
+              <p>Avenida Brasil 6032 - Sala 102, Maringá - PR</p>
             </AddressInfo>
           </div>
         </WelcomeContent>

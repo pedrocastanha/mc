@@ -182,7 +182,7 @@ const Footer = () => {
           <div style={{ marginTop: '20px', paddingTop: '15px', borderTop: '1px solid #444' }}>
             <p style={{ marginBottom: '10px', fontWeight: '600' }}>Endereço:</p>
             <p style={{ marginBottom: '15px', lineHeight: '1.5' }}>
-              Avenida Brasil 6032 - Sala 101<br />
+              Avenida Brasil 6032 - Sala 102<br />
               Maringá - PR
             </p>
           </div>

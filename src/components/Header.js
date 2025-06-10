@@ -23,7 +23,7 @@ const NavContainer = styled.div`
 
 const Logo = styled.div`
   img {
-    height: 70px;
+    height: 30px;
     width: auto;
   }
 `;
