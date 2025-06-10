@@ -92,13 +92,16 @@ const InsuranceCarousel = () => {
   };
 
   const insuranceCompanies = [
+    { name: 'Ezze' ,          logo: '/images/Logos/Logo_Ezze.png' },
     { name: 'HDI', logo: '/images/Logos/Logo_HDI.png' },
     { name: 'YELUM', logo: '/images/Logos/Logo_Yelum.png' },
     { name: 'Tokio Marine',  logo: '/images/Logos/Logo_Tokio.png' },
     { name: 'Allianz',       logo: '/images/Logos/Logo_Allianz.png' },
     { name: 'Porto Seguro',  logo: '/images/Logos/Logo_Porto.png' },
     { name: 'Sura',          logo: '/images/Logos/Logo_Sura.png' },
-    { name: 'Azul Seguros',  logo: '/images/Logos/Logo_Azul.png' }
+    { name: 'Azul Seguros',  logo: '/images/Logos/Logo_Azul.png' },
+    { name: 'Bradesco',      logo: '/images/Logos/Logo_Bradesco.png' },
+    { name: 'Zurich',        logo: '/images/Logos/Logo_Zurich.png' }
   ];
 
   return (
