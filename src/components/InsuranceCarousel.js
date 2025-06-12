@@ -101,7 +101,11 @@ const InsuranceCarousel = () => {
     { name: 'Sura',          logo: '/images/Logos/Logo_Sura.png' },
     { name: 'Azul Seguros',  logo: '/images/Logos/Logo_Azul.png' },
     { name: 'Bradesco',      logo: '/images/Logos/Logo_Bradesco.png' },
-    { name: 'Zurich',        logo: '/images/Logos/Logo_Zurich.png' }
+    { name: 'Zurich',        logo: '/images/Logos/Logo_Zurich.png' },
+    { name: 'Mitsui',        logo: '/images/Logos/logo_mitsui.png' },
+    { name: 'Metlife',        logo: '/images/Logos/Logo_Metlife.png' },
+    { name: 'Mapfre',        logo: '/images/Logos/Logo_Mapfre-removebg-preview.png' },
+    { name: 'Itau',        logo: '/images/Logos/Logo_Itau.png' },    
   ];
 
   return (

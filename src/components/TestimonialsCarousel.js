@@ -6,59 +6,61 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const TestimonialsSection = styled.section`
-  padding: 60px 0;
-  background-color: #f5f5f5;
+  padding: 80px 0;
+  background-color: #F8F9FA;
 `;
 
 const TestimonialsContainer = styled.div`
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
 `;
 
 const TestimonialsTitle = styled.h2`
-  font-size: 36px;
-  margin-bottom: 40px;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 60px;
   text-align: center;
-  color: #333;
+  color: #5b32e6;
 `;
 
 const TestimonialCard = styled.div`
   background: white;
-  border-radius: 15px;
-  padding: 30px;
-  margin: 0 15px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
-  min-height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 0 20px;
 `;
 
 const TestimonialText = styled.p`
-  font-size: 16px;
-  line-height: 1.6;
-  color: #555;
-  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #6C757D;
+  margin-bottom: 30px;
   font-style: italic;
 `;
 
 const TestimonialAuthor = styled.div`
-  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 `;
 
 const AuthorName = styled.h4`
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #5b32e6;
+  margin: 0;
+  font-weight: 600;
 `;
 
 const StarsContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 5px;
-  color: #FFD700;
+  color: #EB663B;
+  font-size: 1.2rem;
 `;
 
 const TestimonialsCarousel = () => {
@@ -66,29 +68,20 @@ const TestimonialsCarousel = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+    autoplaySpeed: 5000,
+    arrows: false,
+    fade: true,
+    cssEase: 'linear'
   };
 
   const testimonials = [
+    {
+      name: "Juliana Rufine Raiocovitch",
+      text: "Atendimento de excelente qualidade, uma empresa de confiança."
+    },
     {
       name: "Maria Silva",
       text: "A melhor seguradora de Maringá! Sempre me atendem muito rápido, com preços justos e que condizem com a qualidade do seguro."
@@ -112,17 +105,13 @@ const TestimonialsCarousel = () => {
     {
       name: "Roberto Mendes",
       text: "Excelente atendimento e preços competitivos. Minha empresa está protegida com o seguro empresarial deles há 3 anos."
-    },
-    {
-      name: "Juliana Pereira",
-      text: "Atendimento humanizado e personalizado. Eles realmente se preocupam em encontrar a melhor solução para cada cliente."
     }
   ];
 
   return (
     <TestimonialsSection>
       <TestimonialsContainer>
-        <TestimonialsTitle>O que nossos clientes dizem</TestimonialsTitle>
+        <TestimonialsTitle>Avaliações</TestimonialsTitle>
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index}>
