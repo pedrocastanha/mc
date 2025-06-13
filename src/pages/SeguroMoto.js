@@ -5,11 +5,6 @@ import { FaMotorcycle, FaShieldAlt, FaFire } from 'react-icons/fa';
 const SeguroMoto = () => {
   const characteristics = [
     {
-      icon: <FaMotorcycle />,
-      title: "Moto Consciente",
-      description: "Cobertura básica e econômica para sua motocicleta. Proteção essencial contra os principais riscos urbanos com preço que cabe no seu bolso."
-    },
-    {
       icon: <FaShieldAlt />,
       title: "Seguro Completo",
       description: "Proteção total para sua moto com assistência 24h, guincho especializado, moto reserva e cobertura ampla contra acidentes e sinistros."

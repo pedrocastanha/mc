@@ -5,11 +5,6 @@ import { FaTruck, FaShieldAlt, FaFire } from 'react-icons/fa';
 const SeguroFrota = () => {
   const characteristics = [
     {
-      icon: <FaTruck />,
-      title: "Frota Consciente",
-      description: "Proteção básica para frotas empresariais. Cobertura essencial para múltiplos veículos com gestão simplificada e custos otimizados."
-    },
-    {
       icon: <FaShieldAlt />,
       title: "Seguro Completo",
       description: "Cobertura ampla para frotas incluindo rastreamento, assistência 24h, veículos reserva e gestão completa de sinistros para toda a frota."

@@ -5,11 +5,6 @@ import { FaHeart, FaShieldAlt, FaFire } from 'react-icons/fa';
 const SeguroVidaIndividual = () => {
   const characteristics = [
     {
-      icon: <FaHeart />,
-      title: "Vida Consciente",
-      description: "Proteção básica para você e sua família. Cobertura essencial por morte e invalidez com valores acessíveis para garantir tranquilidade."
-    },
-    {
       icon: <FaShieldAlt />,
       title: "Seguro Completo",
       description: "Cobertura ampla incluindo doenças graves, assistência funeral, renda por incapacidade e benefícios em vida para total proteção familiar."

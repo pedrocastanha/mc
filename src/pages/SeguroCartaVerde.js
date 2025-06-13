@@ -5,11 +5,6 @@ import { FaGlobe, FaShieldAlt, FaFire } from 'react-icons/fa';
 const SeguroCartaVerde = () => {
   const characteristics = [
     {
-      icon: <FaGlobe />,
-      title: "Carta Verde Consciente",
-      description: "Proteção básica para viagens internacionais com veículo próprio. Cobertura essencial exigida pelos países do Mercosul com preço acessível."
-    },
-    {
       icon: <FaShieldAlt />,
       title: "Seguro Completo",
       description: "Cobertura ampla para viagens internacionais incluindo assistência 24h, guincho internacional e proteção completa em território estrangeiro."

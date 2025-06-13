@@ -5,11 +5,6 @@ import { FaPlane, FaShieldAlt, FaFire } from 'react-icons/fa';
 const SeguroViagem = () => {
   const characteristics = [
     {
-      icon: <FaPlane />,
-      title: "Viagem Consciente",
-      description: "Proteção básica para suas viagens nacionais e internacionais. Cobertura essencial para emergências médicas e imprevistos durante a viagem."
-    },
-    {
       icon: <FaShieldAlt />,
       title: "Seguro Completo",
       description: "Cobertura ampla incluindo despesas médicas, cancelamento de viagem, bagagem extraviada e assistência 24h em qualquer lugar do mundo."

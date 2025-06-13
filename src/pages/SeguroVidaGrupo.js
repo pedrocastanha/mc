@@ -5,11 +5,6 @@ import { FaUsers, FaShieldAlt, FaFire } from 'react-icons/fa';
 const SeguroVidaGrupo = () => {
   const characteristics = [
     {
-      icon: <FaUsers />,
-      title: "Vida em Grupo Consciente",
-      description: "Proteção coletiva básica para empresas e grupos. Cobertura essencial para colaboradores com custos reduzidos e benefícios importantes."
-    },
-    {
       icon: <FaShieldAlt />,
       title: "Seguro Completo",
       description: "Cobertura ampla para grupos incluindo invalidez, doenças graves, assistência médica e benefícios estendidos para todos os participantes."

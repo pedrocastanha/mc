@@ -5,11 +5,6 @@ import { FaBuilding, FaShieldAlt, FaFire } from 'react-icons/fa';
 const SeguroEmpresarial = () => {
   const characteristics = [
     {
-      icon: <FaBuilding />,
-      title: "Empresarial Consciente",
-      description: "Proteção básica para pequenos negócios. Cobertura essencial contra os principais riscos empresariais com investimento adequado ao porte da empresa."
-    },
-    {
       icon: <FaShieldAlt />,
       title: "Seguro Completo",
       description: "Cobertura ampla para empresas incluindo responsabilidade civil, equipamentos, perda de faturamento e proteção total do patrimônio empresarial."
