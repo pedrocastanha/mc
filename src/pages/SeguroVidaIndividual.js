@@ -1,8 +1,11 @@
 import React from 'react';
 import InsurancePageLayout from '../components/InsurancePageLayout';
 import { FaHeart, FaShieldAlt, FaFire } from 'react-icons/fa';
+import ScrollToTop from '../core/ScrollToTop';
 
 const SeguroVidaIndividual = () => {
+    <ScrollToTop />;
+
   const characteristics = [
     {
       icon: <FaShieldAlt />,
