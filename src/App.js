@@ -1,7 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import FloatingWhatsapp from './components/FloatingWhatsapp';
 import Home from './pages/Home';
 import SobreNos from './pages/SobreNos';
 import Privacidade from './pages/Privacidade';
@@ -16,9 +17,20 @@ import SeguroViagem from './pages/SeguroViagem';
 import SeguroCartaVerde from './pages/SeguroCartaVerde';
 import './App.css';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <Routes>
@@ -36,9 +48,12 @@ function App() {
           <Route path="/seguro-carta-verde" element={<SeguroCartaVerde />} />
         </Routes>
         <Footer />
+        <FloatingWhatsapp />
       </div>
     </Router>
   );
 }
 
 export default App;
+
+
