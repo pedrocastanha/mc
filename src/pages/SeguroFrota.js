@@ -20,10 +20,10 @@ const SeguroFrota = () => {
     <InsurancePageLayout
       title="Seguro Frota"
       subtitle="Proteção completa para sua frota empresarial"
-      backgroundImage="/images/Img_auto.png"
+      backgroundImage="/images/Pages/BannerImages/Frota.jpg"
       infoTitle="Gestão inteligente da sua frota"
       infoDescription="Proteja todos os veículos da sua empresa com uma solução integrada e eficiente. Nosso seguro de frota oferece cobertura completa, gestão centralizada de sinistros e condições especiais para múltiplos veículos. Com assistência 24 horas e atendimento especializado, você mantém sua operação funcionando sem interrupções, garantindo a continuidade dos seus negócios."
-      infoImage="/images/Img_auto.png"
+      infoImage="/images/Pages/Images/Frota.png"
       characteristics={characteristics}
       reverse={false}
     />

@@ -20,10 +20,10 @@ const SeguroViagem = () => {
     <InsurancePageLayout
       title="Seguro Viagem"
       subtitle="Viaje com tranquilidade e segurança"
-      backgroundImage="/images/Img_vida.png"
+      backgroundImage="/images/Pages/BannerImages/Viagem.jpg"
       infoTitle="Viaje leve, viaje seguro."
       infoDescription="Aproveite cada momento da sua viagem com a segurança de quem está amparado em qualquer lugar do mundo. Nosso seguro de viagem cobre imprevistos como extravio de bagagem, despesas médicas, cancelamento de voos, acidentes e muito mais. Ideal para lazer, trabalho, intercâmbio ou estudos. Com cobertura nacional e internacional, você embarca com mais tranquilidade e volta apenas com boas histórias."
-      infoImage="/images/Img_vida.png"
+      infoImage="/images/Pages/Images/Viagem.png"
       characteristics={characteristics}
       reverse={true}
     />

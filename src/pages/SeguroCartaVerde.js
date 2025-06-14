@@ -20,13 +20,13 @@ const SeguroCartaVerde = () => {
     <InsurancePageLayout
       title="Seguro Carta Verde"
       subtitle="Viaje pelo Mercosul com segurança"
-      backgroundImage="/images/Img_auto.png"
+      backgroundImage="/images/Pages/BannerImages/CartaVerde.jpg"
       infoTitle="Viaje tranquilo pelo Mercosul com a proteção que você precisa."
       infoDescription="Vai cruzar fronteiras com seu carro? O Seguro Carta Verde é obrigatório para quem vai viajar com veículo próprio para países do Mercosul, como Argentina, Uruguai, Paraguai e outros. Ele garante cobertura contra danos materiais e corporais causados a terceiros, protegendo você legal e financeiramente durante sua viagem.
         Com a M & C Seguros, você contrata de forma rápida, com atendimento humanizado, valores acessíveis e toda a orientação necessária para seguir viagem com segurança e tranquilidade.
         Cruze fronteiras com confiança.
         Solicite agora seu Seguro Carta Verde e evite imprevistos em sua viagem internacional."
-      infoImage="/images/Img_auto.png"
+      infoImage="/images/Pages/Images/CartaVerde.png"
       characteristics={characteristics}
       reverse={false}
     />

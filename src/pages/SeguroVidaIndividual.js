@@ -20,10 +20,10 @@ const SeguroVidaIndividual = () => {
     <InsurancePageLayout
       title="Seguro Vida Individual"
       subtitle="Proteja quem você ama"
-      backgroundImage="/images/Img_vida.png"
+      backgroundImage="/images/Pages/BannerImages/Vida.jpg"
       infoTitle="Cuidar de você é proteger quem você ama."
       infoDescription="O Seguro de Vida vai além da proteção financeira: ele representa cuidado, tranquilidade e segurança para quem depende de você. Com coberturas que amparam casos de falecimento, invalidez ou doenças graves, você garante suporte em momentos difíceis e preserva o bem-estar da sua família. Mais do que um seguro, é um gesto de amor. Escolha o plano ideal para o seu momento de vida e viva com a serenidade de quem sabe que está amparado."
-      infoImage="/images/Img_vida.png"
+      infoImage="/images/Pages/Images/Vida.png"
       characteristics={characteristics}
       reverse={false}
     />

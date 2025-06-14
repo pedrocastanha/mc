@@ -25,11 +25,11 @@ const SeguroAutomoveis = () => {
     <InsurancePageLayout
       title="Seguro Automóveis"
       subtitle="Proteção completa para o seu veículo"
-      backgroundImage="/images/Img_auto.png"
+      backgroundImage="/images/Pages/BannerImages/Automovel.jpg"
       infoTitle="Proteção completa para quem vive em movimento."
       infoDescription="Viaje com a certeza de estar sempre amparado.
       Nosso seguro auto protege seu veículo contra roubo, furto, colisões, panes e muitos outros imprevistos do dia a dia. Com cobertura personalizada, assistência 24h, carro reserva e um atendimento ágil e humano, você dirige com tranquilidade em qualquer trajeto. Faça a cotação online, escolha as coberturas que combinam com seu estilo de vida e tenha a segurança de estar sempre acompanhado de quem entende de proteção."
-      infoImage="/images/Img_auto.png"
+      infoImage="/images/Pages/Images/Automovel.png"
       characteristics={characteristics}
       reverse={false}
     />

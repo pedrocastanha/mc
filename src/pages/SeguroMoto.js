@@ -20,11 +20,11 @@ const SeguroMoto = () => {
     <InsurancePageLayout
       title="Seguro Moto"
       subtitle="Proteção especializada para motociclistas"
-      backgroundImage="/images/Img_auto.png"
+      backgroundImage="/images/Pages/BannerImages/Moto.jpg"
       infoTitle="Liberdade com proteção em cada quilômetro."
       infoDescription="PilotViver sobre duas rodas é sentir o vento no rosto e a emoção da liberdade — mas com segurança sempre em primeiro lugar. Com o Seguro Moto da M & C Seguros, sua motocicleta está protegida contra roubo, furto, colisões, panes, além de contar com assistência 24h e cobertura personalizada para o seu estilo de pilotagem.
         Viaje tranquilo, sabendo que você está resguardado por quem entende os desafios e as necessidades de quem vive sobre duas rodas."
-      infoImage="/images/Img_auto.png"
+      infoImage="/images/Pages/Images/Moto.png"
       characteristics={characteristics}
       reverse={true}
     />

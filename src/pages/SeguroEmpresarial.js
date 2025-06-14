@@ -20,10 +20,10 @@ const SeguroEmpresarial = () => {
     <InsurancePageLayout
       title="Seguro Empresarial"
       subtitle="Proteja seu negócio e garanta o futuro"
-      backgroundImage="/images/Img_empresarial.png"
+      backgroundImage="/images/Pages/BannerImages/Empresarial.jpg"
       infoTitle="Proteção sob medida para o seu negócio crescer com segurança."
       infoDescription="Seu empreendimento é fruto de esforço, visão e investimento — e merece estar protegido contra riscos que podem comprometer tudo isso. Nosso seguro empresarial cobre desde incêndios e roubos até danos elétricos, responsabilidade civil, perda de receita e muito mais. Com soluções personalizadas, atendimento ágil e assistência 24h, você cuida do que importa: o crescimento da sua empresa, com a tranquilidade de quem está bem protegido."
-      infoImage="/images/Img_empresarial.png"
+      infoImage="/images/Pages/Images/Empresarial.png"
       characteristics={characteristics}
       reverse={true}
     />
